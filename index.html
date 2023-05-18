@@ -1,4 +1,520 @@
-<h1>Miguel Moreno Portfolio</h1>
-<p>Hi there! I'm an economist from Colombia who wants to help people through data science :D</p>
-<p>I love music, videogames and cats</p>
-<p><img src="https://giphy.com/embed/s0aJKJuQaZ3rO"</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- === CSS FILE === -->
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Website</title>
+</head>
+
+<body>
+
+
+
+    <!-- ==== Header Start ====  -->
+    <header>
+
+        <!-- profile -->
+        <div class="profile">
+            <img src="img/profile.jpg" alt="" width="150px">
+            <h1>Miguel Moreno</h1>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/miguelmorenods/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/MiguelEconomics"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- NavBar -->
+        <nav>
+            <ul>
+                <li><a href="#home" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i> About Me</a></li>
+                <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; Copyright 2023 <br>Original Design By <a
+                    href="https://www.youtube.com/watch?v=7mVQZZrPePk&t=208s&ab_channel=MSani"
+                    target="_blank">MSany.xyz</a></p>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Toggle -->
+    <i class="fa-solid fa-bars" id="MenuBtn"></i>
+    <!-- ==== Header End ====  -->
+
+    <!-- ====== All Body Content ====== -->
+
+    <main>
+
+        <!-- === Home Section Start ===  -->
+        <section id="home">
+            <div class="home-row">
+                <h1>Hi there! <br>My name is Miguel<span>.</span></h1>
+                <p>I'm a <span class="auto-input"></span></p>
+            </div>
+        </section>
+        <!-- === Home Section End === -->
+
+
+        <!-- === About Section Start === -->
+        <section id="about">
+
+            <h1 class="sub-heading">About Me</h1>
+            <div class="divider"></div>
+            <p class="sub-para">I am passionate about the power of data to make informed decisions.
+                For this reason, in addition to my degree as an economist from Universidad Externado de Colombia,
+                I am studying data science through online courses!</p>
+
+            <div class="about-col">
+
+                <!-- img col -->
+                <div class="img-col">
+                    <img src="img/profile.jpg" alt="...">
+                </div>
+
+                <!-- information -->
+                <div class="info-col">
+                    <h2>Economist</h2>
+                    <p>I graduated as an economist from Universidad Externado de Colombia in March 2023.
+                        During my education, the subjects I enjoyed the most were related to data science and
+                        statistics.</p>
+                    <div class="icon-list-col">
+
+                        <!-- Left Side List -->
+                        <div class="icon-list">
+                            <ul>
+                                <li><i class="fa-solid fa-angle-right"></i> <strong>Age:</strong> <span>25</span></li>
+                                <li><i class="fa-solid fa-angle-right"></i> <strong>City:</strong> <span>Bogota,
+                                        Colombia</span></li>
+                            </ul>
+                        </div>
+
+                        <!-- Right Side List -->
+                        <div class="icon-list">
+                            <ul>
+                                <li><i class="fa-solid fa-angle-right"></i> <strong>Degree:</strong>
+                                    <span>Economist</span></li>
+                                <li><i class="fa-solid fa-angle-right"></i> <strong>Email:</strong>
+                                    <span>mianmo39@outlook.com</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- === About Section End === -->
+
+        <!-----------------------------------  ----------------------------------------->
+
+        <!-- Facts Section Start-->
+        <section id="fact">
+
+            <h1 class="sub-heading">Facts About Me</h1>
+            <div class="divider"></div>
+            <p class="sub-para">To get to know me better you need to know that: </p>
+
+            <div class="fact-row">
+
+                <!-- Fact Box-1 -->
+                <div class="fact-box">
+                    <i class="fa fa-smile-o"></i>
+                    <strong>2016</strong>
+                    <p>I started studying economics thanks to a scholarship I received during my high school studies</p>
+                </div>
+
+                <!-- Fact Box-2 -->
+                <div class="fact-box">
+                    <i class="fa-regular fa-file-code"></i>
+                    <strong>8 failed subjects</strong>
+                    <p>I had difficulties in my education, I failed subjects and deferred semesters.</p>
+                </div>
+
+                <!-- Fact Box-3 -->
+                <div class="fact-box">
+                    <i class="fa-solid fa-headset"></i>
+                    <strong>1 year</strong>
+                    <p>I decided to work in customer service to finance my studies.
+                        My education and work led me to be resilient. 
+                    </p>
+                </div>
+
+                <!-- Fact Box-4 -->
+                <div class="fact-box">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <strong>2023</strong>
+                    <p>I graduated with a degree in economics in 2023, and even received a scholarship in my eighth semester for being the best GPA.</p>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Facts Section End-->
+
+        <!-- ---------------------------------------------------- -->
+
+        <!-- Skills Section Start -->
+        <section id="skill">
+
+            <h1 class="sub-heading">Skills</h1>
+            <div class="divider"></div>
+            <p class="sub-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+            <div class="skill-row">
+
+                <!-- Skill 1 -->
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>Spanish</h2>
+                        <h2>100%</h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width:100%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>English</h2>
+                        <h2>80%</h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width:80%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>Microsoft Office</h2>
+                        <h2>80%</h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width:80%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>Python</h2>
+                        <h2>60%</h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width:60%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>R (RStudio)</h2>
+                        <h2>50%</h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width:50%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 6 -->
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <h2>SQL</h2>
+                        <h2>40%</h2>
+                    </div>
+                    <div class="skill-outter-line">
+                        <div class="skill-inner-line" style="width:40%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Skills Section End -->
+
+        <!-- ---------------------------------------------------- -->
+
+        <!-- ============ Resume Section Start ============ -->
+        <section id="resume">
+
+            <h1 class="sub-heading">Resume</h1>
+            <div class="divider"></div>
+            <p class="sub-para">I am passionate about the power of data to make informed decisions. For this reason, in addition to my degree as an economist from Universidad Externado de Colombia, I am studying data science through online courses. I am a good communicator and have experience working in roles that require active listening skills and empathy. I have recently worked as an intern in a tax consulting firm and as a bilingual customer experience consultant for Scotiabank. In addition, I have an advanced level of English (C1) that allows me to communicate fluently in this language.</p>
+
+            <div class="resume-row">
+
+                <!-- Left Col -->
+                <div class="resume-cols">
+
+                    <h2>Summary</h2>
+
+                    <div class="my-info">
+                        <h3>Miguel Angel Moreno Barajas</h3>
+                        <p>Economist interested in data science.</p>
+                        <ul>
+                            <li>Bogota, Colombia</li>
+                            <li>mianmo39@outlook.com</li>
+                        </ul>
+                    </div>
+
+                    <h2>Education</h2>
+
+                    <div class="my-edu">
+                        <h3>Economist</h3>
+                        <span class="sp-box">2016-2023</span>
+                        <p>Universidad Externado de Colombia</p>
+                        <p>Training in economic theory, including microeconomics, macroeconomics, econometrics, international economics, finance and public policy. 
+                            Through my university training, I have acquired skills in the analysis of economic data and the evaluation of the impact of public policies on society.</p>
+                    </div>
+
+                    <div class="my-edu">
+                        <h3>Data Science</h3>
+                        <span class="sp-box">2022-Present</span>
+                        <p>Platzi and Coursera</p>
+                        <p>Intensive courses in data science. 
+                            Development of skills in programming, database management, visualization, statistical analysis, mathematics, machine learning, web scraping and business intelligence to solve problems through data.</p>
+                    </div>
+
+                </div>
+
+                <!-- Right Col -->
+                <div class="resume-cols">
+
+                    <h2>Professional Experience</h2>
+
+                    <div class="pro-exp">
+                        <h3>Transfer Pricing Intern</h3>
+                        <span class="sp-box">Jul 2022 - Dec 2022</span>
+                        <p>BaseFirma Colombia</p>
+
+                        <ul>
+                            <li>Preparation of tax reports and presentations on transfer pricing.</li>
+                            <li>Use of the Office suite and databases such as Capital IQ to report commercial transactions between related companies, complying with tax regulations and promoting transparency in business. </li>
+                            <li>Remote work experience, which allowed me to strengthen my time management as well as my ability to work autonomously and as part of a team. </li>
+                            <li>Clear and precise communication with colleagues and superiors to achieve team objectives.</li>
+                        </ul>
+                    </div>
+
+                    <div class="pro-exp">
+                        <h3>Customer Care Advisor (English)</h3>
+                        <span class="sp-box">Aug 2021 - Jan 2022</span>
+                        <p>GSGlobales Scotiabank</p>
+
+                        <ul>
+                            <li>English-speaking call center for banking customers in Canada</li>
+                            <li>Listen carefully to the customer's needs and ask relevant questions to understand their situation. </li>
+                            <li>Maintain a positive and empathetic attitude at all times, even in difficult situations.</li>
+                            <li>Constant training to provide the best customer support.</li>
+                            <li>Achieving group goals through cooperation between team members.</li>
+                        </ul>
+                    </div>
+
+                    <div class="pro-exp">
+                        <h3>Customer Care Advisor (Spanish)</h3>
+                        <span class="sp-box">Jul 2019 - Jan 2020</span>
+                        <p>Teleperformance Colombia</p>
+
+                        <ul>
+                            <li>Answer calls from Spanish-speaking customers located in the United States and Canada.</li>
+                            <li>Resolve customer problems and requests in an effective manner.</li>
+                            <li>Provide accurate and up-to-date information about the company's products and services. </li>
+                            <li>Meet objectives and goals set by the company in terms of customer satisfaction, query resolution and response times.</li>
+                            <li>Use of English language software to manage customer interactions.</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+        </section>
+        <!-- ============ Resume Section End ============ -->
+
+        <!-- ----------------------------------------------- -->
+
+        <!-- ==== Portfolio Section Start ==== -->
+        <section id="portfolio">
+
+            <h1 class="sub-heading">Portfolio</h1>
+            <div class="divider"></div>
+            <p class="sub-para">I'm still learning the ropes in data science but eventually there will be more projects.</p>
+
+            <div class="port-row">
+
+                <!-- Portfolio item 1 -->
+                <div class="port-item">
+                    <div class="port-img">
+                        <img src="img/portfolio/time_series.png" alt="...">
+                    </div>
+                    <div class="port-info">
+                        <h4>Graphical analysis and ARIMA estimation of traffic fatalities in Colombia</h4>
+                        <p></p>
+                        <a href="https://medium.com/@mianmo39/análisis-gráfico-y-estimación-arima-de-víctimas-mortales-en-accidentes-de-tránsito-en-colombia-140d8c0ff87b"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Portfolio item 2 -->
+                <div class="port-item">
+                    <div class="port-img">
+                        <img src="img/portfolio/word_cloud.png" alt="...">
+                    </div>
+                    <div class="port-info">
+                        <h4>Spotify/Youtube EDA</h4>
+                        <p></p>
+                        <a href="https://github.com/VictorRegueira/SongsStatistics"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Portfolio item 3 -->
+                <div class="port-item">
+                    <div class="port-img">
+                        <img src="img/portfolio/bread_project.jpg" alt="...">
+                    </div>
+                    <div class="port-info">
+                        <h4>Bread price analysis in Colombia</h4>
+                        <p>The next project</p>
+                        <a href="https://media.giphy.com/media/hXafx5jj9HVBe/giphy.gif"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Portfolio item 4 -->
+                <div class="port-item">
+                    <div class="port-img">
+                        <img src="img/portfolio/upcoming_project.jpg" alt="...">
+                    </div>
+                    <div class="port-info">
+                        <h4>Upcoming Project</h4>
+                        <p>Coming Soon</p>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Portfolio item 5 -->
+                <div class="port-item">
+                    <div class="port-img">
+                        <img src="img/portfolio/upcoming_project.jpg" alt="...">
+                    </div>
+                    <div class="port-info">
+                        <h4>Upcoming Project</h4>
+                        <p>Coming Soon</p>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Portfolio item 6 -->
+                <div class="port-item">
+                    <div class="port-img">
+                        <img src="img/portfolio/upcoming_project.jpg" alt="...">
+                    </div>
+                    <div class="port-info">
+                        <h4>Upcoming Project</h4>
+                        <p>Coming Soon</p>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- ==== Portfolio Section End ==== -->
+
+        <!-- ------------------------------------------------------- -->
+
+        <!-- Contact Section Start -->
+
+        <section id="contact">
+
+            <h1 class="sub-heading">Contact</h1>
+            <div class="divider"></div>
+            <p class="sub-para">Feel free to reach me!</p>
+
+            <div class="contact-row">
+
+                <!-- Left Col -->
+                <div class="contact-left">
+
+                    <!-- Email Box -->
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Email:</h4>
+                            <p>mianmo39@outlook.com</p>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn Box -->
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                        <div class="info">
+                            <h4>LinkedIn:</h4>
+                            <p>../miguelmorenods/</p>
+                        </div>
+                    </div>
+
+                    <!-- Location Box -->
+                    <div class="icon-box">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="info">
+                            <h4>Location:</h4>
+                            <p>Bogota, Colombia</p>
+                        </div>
+                    </div>
+
+                    <!-- Map -->
+
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d509016.5836271301!2d-74.43751101273625!3d4.648905546934098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1684431232402!5m2!1ses!2sco"
+                            width="100%" height="250" style="border:0;" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+
+                </div>
+
+                <!-- Right Col -->
+                <div class="contact-right">
+
+                    <form action="https://formsubmit.co/mianmo39@outlook.com" method="POST">
+
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                        <textarea name="msg" id="msg" rows="9" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send">
+                        <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section End -->
+    </main>
+
+
+    <!-- Typed.JS File (For typing effect) -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Main JS File -->
+    <script src="script.js"></script>
+    <!-- FontAwesome JS File (Icon file)-->
+    <script src="https://kit.fontawesome.com/aa5f332820.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
