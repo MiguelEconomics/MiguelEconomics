@@ -668,6 +668,54 @@ main{
     color: var(--bgColor);
 }
 /* Mobile Version */
+@media screen and (max-width: 1108px) {
+    #portfolio .port-row .port-item .port-info h4{
+        font-size: 22px;
+      }
+    #portfolio .port-row .port-item .port-info h4 + p{
+      font-size: 14px;
+    }
+}
+@media screen and (max-width: 1050px) {
+#portfolio .port-row .port-item .port-info h4{
+    font-size: 25px;
+    }
+#portfolio .port-row .port-item .port-info h4 + p{
+    font-size: 15px;
+    }
+}
+@media screen and (max-width: 808px) {
+    #portfolio .port-row .port-item .port-info h4{
+        font-size: 22px;
+    }
+    #portfolio .port-row .port-item .port-info h4 + p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 739px) {
+    #portfolio .port-row .port-item .port-info h4{
+        font-size: 21px;
+    }
+    #portfolio .port-row .port-item .port-info h4 + p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 703px) {
+    #portfolio .port-row .port-item .port-info h4{
+        font-size: 19px;
+    }
+    #portfolio .port-row .port-item .port-info h4 + p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 661px) {
+    #portfolio .port-row .port-item .port-info h4{
+        font-size: 18px;
+    }
+    #portfolio .port-row .port-item .port-info h4 + p{
+        font-size: 13px;
+    }
+}
 @media only screen and (max-width: 650px){
     #portfolio{
         padding: 50px 10px;
@@ -676,13 +724,75 @@ main{
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 15px;
     }
+    #portfolio .port-row .port-item .port-info h4{
+        font-size: 25px;
+    }
+    #portfolio .port-row .port-item .port-info h4 + p{
+        font-size: 15px;
+    }
 }
-@media only screen and (max-width: 350px){
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (max-width: 549px) {
+    #portfolio .port-row .port-item .port-info h4{
+        font-size: 23px;
+    }
+    #portfolio .port-row .port-item .port-info h4 + p{
+      font-size: 15px;
+    }
+}
+@media screen and (max-width: 464px) {
+#portfolio .port-row .port-item .port-info h4{
+    font-size: 19px;
+    }
+#portfolio .port-row .port-item .port-info h4 + p{
+    font-size: 12px;
+    }
+}
+@media screen and (max-width: 388px) {
+    #portfolio .port-row .port-item .port-info h4{
+        font-size: 18px;
+    }
+    #portfolio .port-row .port-item .port-info h4 + p{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 370px) {
+    #portfolio .port-row .port-item .port-info h4{
+        font-size: 16px;
+    }
+    #portfolio .port-row .port-item .port-info h4 + p{
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width: 350px) {
     #portfolio .port-row{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 15px;
     }
+    #portfolio .port-row .port-item .port-info h4{
+        font-size: 25px;
+    }
+    #portfolio .port-row .port-item .port-info h4 + p{
+        font-size: 15px;
+    }
 }
+@media screen and (max-width: 246px) {
+    #portfolio .port-row .port-item .port-info h4{
+        font-size: 20px;
+    }
+    #portfolio .port-row .port-item .port-info h4 + p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 209px) {
+    #portfolio .port-row .port-item .port-info h4{
+        font-size: 15px;
+    }
+    #portfolio .port-row .port-item .port-info h4 + p{
+        font-size: 9px;
+    }
+}
+
 /* ============ Portfolio Section End ============= */
 
 /* ---------------------------------------------- */
